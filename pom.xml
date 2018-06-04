@@ -10,7 +10,7 @@
 
     <groupId>com.facebook.presto.cassandra</groupId>
     <artifactId>cassandra-server</artifactId>
-    <version>2.1.16-2-SNAPSHOT</version>
+    <version>3.11.2-SNAPSHOT</version>
 
     <name>cassandra-server</name>
     <description>Shaded version of Apache Cassandra for Presto</description>
@@ -43,7 +43,7 @@
         <dependency>
             <groupId>org.apache.cassandra</groupId>
             <artifactId>cassandra-all</artifactId>
-            <version>2.1.16</version>
+            <version>3.11.2</version>
             <exclusions>
                 <exclusion>
                     <groupId>junit</groupId>
